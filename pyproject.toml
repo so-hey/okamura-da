@@ -11,8 +11,12 @@ dependencies = [
     "pandas (>=2.3.0,<3.0.0)",
     "scikit-learn (>=1.7.0,<2.0.0)",
     "mecab (>=0.996.11,<0.997.0)",
-    "ipadic (>=1.0.0,<2.0.0)"
+    "ipadic (>=1.0.0,<2.0.0)",
+    "ipykernel (>=6.30.0,<7.0.0)"
 ]
+
+
+[tool.poetry]
 package-mode = false
 
 
